@@ -8,10 +8,12 @@
         "dev": "ts-node src/server.ts"
     },
     "dependencies": {
+        "cors": "^2.8.5",
         "express": "^5.2.1",
         "pg": "^8.16.3"
     },
     "devDependencies": {
+        "@types/cors": "^2.8.19",
         "@types/express": "^5.0.6",
         "@types/node": "^25.0.2",
         "@types/pg": "^8.16.0",
